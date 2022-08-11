@@ -18,3 +18,7 @@ build-backend = "pdm.pep517.api"
 
 [tool]
 [tool.pdm]
+
+[tool.pdm.scripts]
+start = "uvicorn main:app --host 0.0.0.0 --reload"
+host = "uvicorn main:app --host 0.0.0.0"
