@@ -2,6 +2,7 @@
 
 run with
 ```
+pip install --user pdm
 pdm install
 pdm run start
 ```
